@@ -16,3 +16,14 @@ The purpose of package-lock.json is to ensure that the same dependencies are ins
 
 step-3
 write the server.js 
+after writing that code our server will be running on the port 8000 but will not show any files as we have not added any routes so add routes to server.js 
+route-1 
+/ -> home route and display hello world in it so now you refresh and will show the data 
+route-2
+/about -> displaying details about the company 
+so this is how we can create as many routes
+
+Here we will now learn to add files and show files when we render
+just add the files home.html and about.html in the views folder 
+then add path require in the server.js 
+then sendFile as a res i the routes 
